@@ -1,7 +1,10 @@
+server:
+  port: 8500
+
 spring:
   application:
     name: eureka-server #Burdan şunu anlıyor: config-server'da eureka-server.yml diye bir dosyaya gidip bakmam lazım. Bu isimde bir config var ise onunla başlıcam.
   cloud:
     config:
       profile: native
-      uri: http://localhost:8500
+      uri: http://localhost:8888
