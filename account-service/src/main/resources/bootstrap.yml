@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: account-service #Burdan şunu anlıyor: config-server'da account-service.yml diye bir dosyaya gidip bakmam lazım. Bu isimde bir config var ise onunla başlıcam.
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8888
